@@ -1,12 +1,86 @@
-# React + Vite
+# 🌸 TorekulChan – Anime Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TorekulChan** is a fully-featured anime UI platform that allows users to explore trending anime titles using real-time data from the [Kitsu API](https://kitsu.docs.apiary.io/). The app features an animated auto-slideshow, genre navigation, and a beautifully styled interface using Tailwind CSS and Framer Motion.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+> [https://torekulchan.vercel.app](https://torekulchan.vercel.app)
+> *(or your actual deployed link)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots of your app’s homepage, slideshow, and side menu here)*
+
+---
+
+## 🛠️ Built With
+
+* **React.js** – Component-based frontend framework
+* **Tailwind CSS** – Utility-first styling
+* **Framer Motion** – Smooth animations
+* **Kitsu API** – Anime data source
+* **React Router DOM** – Client-side routing
+
+---
+
+## ✨ Features
+
+* 🎞️ Auto-playing slideshow of top-rated anime
+* 🧭 Sliding side navigation menu with route links
+* 🧠 View anime details: title, episodes, rating, description
+* 🧑‍🤝‍🧑 Preview characters with roles and images
+* 🧩 Clean modular structure for components
+* 📱 Fully responsive for all devices
+* 💫 Scroll-locking and transition handling
+* 🔘 Dot-based slider control with reset on click
+
+---
+
+## 📂 Folder Structure
+
+```bash
+/src
+ ├── api/
+ │   └── fetchAnimeList.js
+ ├── components/
+ │   ├── Slied.jsx
+ │   ├── SliedCard.jsx
+ │   ├── SideMenu.jsx
+ │   └── CharacterCard.jsx
+ ├── pages/
+ │   └── Home.jsx
+ └── App.jsx
+```
+
+---
+
+## 🧠 Developer
+
+**Torekul Islam**
+📍 Bangladesh
+GitHub: [@torekuislam](https://github.com/torekuislam)
+
+---
+
+## 💡 How to Use
+
+```bash
+# Clone the repo
+git clone https://github.com/torekuislam/TorekulChan-AnimeApp.git
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+```
+
+---
+
+## 🌐 Tags
+
+`react` `anime` `kitsu-api` `tailwindcss` `framer-motion` `react-router` `slideshow` `responsive-ui`
