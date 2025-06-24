@@ -6,14 +6,10 @@
 
 ## 🚀 Live Demo
 
-> [https://torekulchan.vercel.app](https://torekulchan.vercel.app)
+> [https://torekulchan-anime-app.vercel.app/](https://torekulchan-anime-app.vercel.app/)
 > *(or your actual deployed link)*
 
 ---
-
-## 📸 Screenshots
-
-> *(Add screenshots of your app’s homepage, slideshow, and side menu here)*
 
 ---
 
