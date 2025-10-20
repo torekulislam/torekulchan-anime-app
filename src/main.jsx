@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             element: <SearchPage />
           },
           {
-            path: "anime/:slug/:id", // ✅ no leading slash!
+            path: "anime/:mal_id", // ✅ no leading slash!
             element: <AnimePage/> // This is the component that will render the anime details
           }
 
